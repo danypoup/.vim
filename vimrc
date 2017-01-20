@@ -170,11 +170,11 @@ if has('gui_running')
   syntax enable
 endif
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
+" let g:solarized_termcolors=256
+" let g:solarized_termtrans=1
 " let g:hybrid_use_Xresources = 1
 " let g:rehash256 = 1
-colorscheme solarized
+colorscheme Benokai
 set guifont=Inconsolata:h15
 set guioptions-=L
 
@@ -333,7 +333,7 @@ au FileType nginx setlocal noet ts=4 sw=4 sts=4
 
 " Go settings
 au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
-autocmd BufEnter *.go colorscheme nofrils-dark
+" autocmd BufEnter *.go colorscheme Benokai
 
 " scala settings
 autocmd BufNewFile,BufReadPost *.scala setl shiftwidth=2 expandtab
@@ -543,7 +543,7 @@ autocmd BufWritePre *.cpp,*.hpp pyf /usr/share/vim/addons/syntax/clang-format-3.
 
 " =================== vim-airline ========================
 
-let g:airline_theme='solarized'
+let g:airline_theme='powerlineish'
 
 " set to use powerline fonts when not in a ssh session
 let g:remoteSession = ($STY == "")
