@@ -85,8 +85,8 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "bundle/colorschemes"]
-	path = bundle/colorschemes
+[submodule "bundle/vim-colorschemes"]
+	path = bundle/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
 [submodule "bundle/setcolors"]
 	path = bundle/setcolors
